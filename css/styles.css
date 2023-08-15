@@ -1,0 +1,320 @@
+body {
+  height: 100%;
+  width: auto;
+  margin: auto;
+  font-family: Nexa Heavy;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+.da-ta {
+  background-image: url("../images/da-ta.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.da-ta #da-talogo {
+  width: 40%;
+  max-width: 40%;
+  min-width: 300px;
+  margin: 0;
+}
+
+.da-ta #da-talinks {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.da-ta #link1 {
+	height:auto;
+	width:55px;
+}
+
+.da-ta #link2 {
+	height:auto;
+	width:55px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.da-ta #link3 {
+	height:auto;
+	width:55px;
+}
+
+
+.da-ta2 {
+  background-image: url("../images/da-ta2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.da-ta2 #da-ta2logo {
+  height: auto;
+  width: 40%;
+  max-width: 40%;
+  min-width: 300px;
+  margin: 0;
+}
+
+.da-ta2 #da-ta2links {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.da-ta2 #link4 {
+	height:55px;
+	width:auto;
+}
+
+.auriali {
+  background-image: url("../images/auriali.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auriali #aurialilogo {
+  height: auto;
+  width: 35%;
+  max-width: 35%;
+  min-width: 300px;
+  margin: 0;
+}
+
+.auriali #aurialilinks {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.auriali #link5 {
+	height:auto;
+	width:55px;
+}
+
+.auriali #link6 {
+	height:auto;
+	width:55px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.auriali #link7 {
+	height:auto;
+	width:55px;
+}
+
+.auriaii {
+  background-image: url("../images/auriaii.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auriaii #auriaiilogo {
+  height: auto;
+  width: 35%;
+  max-width: 35%;
+  min-width: 300px;
+  margin: 0;
+}
+
+.auriaii #auriaiilinks {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.auriaii #link8 {
+	height:55px;
+	width:auto;
+}
+
+.hangout {
+  background-image: url("../images/hangout.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hangout #hangoutlogo {
+  height: auto;
+  width: 40%;
+  max-width: 40%;
+  min-width: 350px;
+  margin: 0;
+}
+
+.hangout #hangoutlinks {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hangout #link9 {
+	height:auto;
+	width:55px;
+}
+
+.hangout #link10 {
+	height:auto;
+	width:55px;
+	padding-left:15px;
+}
+
+.footer {
+  background-color: #218BE9;
+  height: 8%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 10%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer #footerlogo {
+  height: auto;
+  width: 145px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 950px) {
+  .da-ta #da-talinks {
+    padding-top:20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .da-ta #link1 {
+    height:auto;
+    width:45px;
+  }
+  
+  .da-ta #link2 {
+    height:auto;
+    width:45px;
+    padding-left:15px;
+    padding-right:15px;
+  }
+  
+  .da-ta #link3 {
+    height:auto;
+    width:45px;
+  }
+
+  .da-ta2 #da-ta2links {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .da-ta2 #link4 {
+    height:45px;
+    width:auto;
+  }
+
+  .auriali #aurialilinks {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .auriali #link5 {
+    height:auto;
+    width:45px;
+  }
+  
+  .auriali #link6 {
+    height:auto;
+    width:45px;
+    padding-left:15px;
+    padding-right:15px;
+  }
+  
+  .auriali #link7 {
+    height:auto;
+    width:45px;
+  }
+
+  .auriaii #auriaiilinks {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .auriaii #link8 {
+    height:45px;
+    width:auto;
+  }
+  
+  .hangout #hangoutlinks {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hangout #link9 {
+    height:auto;
+    width:45px;
+  }
+  
+  .hangout #link10 {
+    height:auto;
+    width:45px;
+    padding-left:15px;
+  }
+}
